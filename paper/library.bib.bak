@@ -34,4 +34,12 @@
   publisher = {Cambridge University Press},
 }
 
+@Electronic{dodassets2016,
+  year         = {2016},
+  title        = {Department of Defense 101 Sections},
+  howpublished = {Online},
+  organization = {U.S. Department of Defense},
+  url          = {http://www.defense.gov/About-DoD/DoD-101},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

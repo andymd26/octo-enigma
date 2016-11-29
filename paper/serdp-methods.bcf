@@ -2098,18 +2098,24 @@
   </bcf:bibdata>
   <bcf:section number="0">
     <bcf:citekey order="1">dodassets2016</bcf:citekey>
-    <bcf:citekey order="2">field2014summary</bcf:citekey>
-    <bcf:citekey order="3">field2014summary</bcf:citekey>
-    <bcf:citekey order="4">field2014summary</bcf:citekey>
-    <bcf:citekey order="5">field2014summary</bcf:citekey>
-    <bcf:citekey order="6">field2014summary</bcf:citekey>
-    <bcf:citekey order="7">field2014summary</bcf:citekey>
-    <bcf:citekey order="8">kunreuther2014integrated</bcf:citekey>
+    <bcf:citekey order="3">ipcc2016organization</bcf:citekey>
+    <bcf:citekey order="4">ipcc2016organization</bcf:citekey>
+    <bcf:citekey order="5">ipcc2016organization</bcf:citekey>
+    <bcf:citekey order="6">ipcc2016organization</bcf:citekey>
+    <bcf:citekey order="7">ipcc2016organization</bcf:citekey>
+    <bcf:citekey order="8">ipcc2016organization</bcf:citekey>
     <bcf:citekey order="9">kunreuther2014integrated</bcf:citekey>
     <bcf:citekey order="10">kunreuther2014integrated</bcf:citekey>
     <bcf:citekey order="11">kunreuther2014integrated</bcf:citekey>
     <bcf:citekey order="12">kunreuther2014integrated</bcf:citekey>
     <bcf:citekey order="13">kunreuther2014integrated</bcf:citekey>
+    <bcf:citekey order="14">kunreuther2014integrated</bcf:citekey>
+    <bcf:citekey order="15">field2014summary</bcf:citekey>
+    <bcf:citekey order="16">field2014summary</bcf:citekey>
+    <bcf:citekey order="17">field2014summary</bcf:citekey>
+    <bcf:citekey order="18">field2014summary</bcf:citekey>
+    <bcf:citekey order="19">field2014summary</bcf:citekey>
+    <bcf:citekey order="20">field2014summary</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="nyt/global/" type="entry" sortscheme="nyt" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>
