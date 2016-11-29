@@ -18,4 +18,20 @@
   publisher={Springer}
 }
 
+@Article{kunreuther2014integrated,
+  author    = {Kunreuther, Howard and Gupta, S and Bosetti, V and Cooke, R and Dutt, V and Ha-Duong, M and Held, H and Llanes-Regueiro, J and Patt, A and Shittu, E and others},
+  title     = {Integrated risk and uncertainty assessment of climate change response policies},
+  year      = {2014},
+  publisher = {Cambridge University Press},
+}
+
+@Article{field2014summary,
+  author    = {Field, Christopher B and Barros, Vicente R and Mastrandrea, Michael D and Mach, Katharine J and Abdrabo, MA-K and Adger, N and Anokhin, Yury A and Anisimov, Oleg A and Arent, Douglas J and Barnett, J and others},
+  title     = {Summary for policymakers},
+  journal   = {Climate change 2014: impacts, adaptation, and vulnerability. Part A: global and sectoral aspects. Contribution of Working Group II to the Fifth Assessment Report of the Intergovernmental Panel on Climate Change},
+  year      = {2014},
+  pages     = {1--32},
+  publisher = {Cambridge University Press},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

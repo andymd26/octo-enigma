@@ -2097,12 +2097,19 @@
     <bcf:datasource type="file" datatype="bibtex">library.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">kunreuther2014integrated</bcf:citekey>
-    <bcf:citekey order="2">kunreuther2014integrated</bcf:citekey>
-    <bcf:citekey order="3">kunreuther2014integrated</bcf:citekey>
-    <bcf:citekey order="4">kunreuther2014integrated</bcf:citekey>
-    <bcf:citekey order="5">kunreuther2014integrated</bcf:citekey>
-    <bcf:citekey order="6">kunreuther2014integrated</bcf:citekey>
+    <bcf:citekey order="1">dodassets2016</bcf:citekey>
+    <bcf:citekey order="2">field2014summary</bcf:citekey>
+    <bcf:citekey order="3">field2014summary</bcf:citekey>
+    <bcf:citekey order="4">field2014summary</bcf:citekey>
+    <bcf:citekey order="5">field2014summary</bcf:citekey>
+    <bcf:citekey order="6">field2014summary</bcf:citekey>
+    <bcf:citekey order="7">field2014summary</bcf:citekey>
+    <bcf:citekey order="8">kunreuther2014integrated</bcf:citekey>
+    <bcf:citekey order="9">kunreuther2014integrated</bcf:citekey>
+    <bcf:citekey order="10">kunreuther2014integrated</bcf:citekey>
+    <bcf:citekey order="11">kunreuther2014integrated</bcf:citekey>
+    <bcf:citekey order="12">kunreuther2014integrated</bcf:citekey>
+    <bcf:citekey order="13">kunreuther2014integrated</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="nyt/global/" type="entry" sortscheme="nyt" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>
