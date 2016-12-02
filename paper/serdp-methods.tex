@@ -3,6 +3,7 @@
 \usepackage{float} % necessary for placement of figures
 \usepackage{amsmath}
 \usepackage{tabularx}
+\usepackage{gensymb}
 \usepackage[style = authoryear, sorting = nyt, backend = biber]{biblatex}
 \bibliography{library.bib}
 
@@ -37,7 +38,7 @@ The levels of certainty are broken into two components: summary of the evidence,
 Confidence in the validity of the finding is meant to synthesize both the evaluation of evidence and agreement and can be one of five levels: very low, low, medium, high, and very high \parencite[6]{ipcc2016organization}. 
 Finally, the likelihood assesses the probability of some event having occurred or likely to occur in the future \parencite[6]{ipcc2016organization}.
 For example, the Fifth Assessment Report states that the risk from extreme weather events (e.g., heat waves, extreme precipitation, etc.)  
-are already moderate (high confidence) and high with a 1$\degree$ C additional warming (medium confidence) \parencite[6]{ipcc2016organization}.
+are already moderate (high confidence) and high with a 1\degree C additional warming (medium confidence) \parencite[6]{ipcc2016organization}.
 
 However, as has been discussed in the literature and more generally in news media, there are significant sources of uncertainty in modeling climate change.
 The IPCC defines uncertainty as a "cognitive state of incomplete knowledge that results from a lack of information and/or from disagreement about what is known or even knowable" \parencite{kunreuther2014integrated}.
@@ -58,11 +59,32 @@ Climate hazards exacerbate preexisting stressors especially for those most vulne
 Research suggests a relationship between violent conflict and vulnerability to climate change \parencite{field2014summary}.
 Finally, recent extreme climate events suggest that existing human and natural systems are highly vulnerable to current climate vulnerability (let alone future vulnerability) \parencite{field2014summary}.
 
+\begin{figure}[H]\label{fig:impacts}
+\includegraphics[width=12cm]{impacts.png}
+\caption{Test}
+\end{figure}
+
 An important consideration is that human systems currently deployed around the world were mostly designed for a stationary environment that is well characterized by the information available at the time of their construction.
 Climate change is a non-stationary process, which means that the environmental conditions faced by infrastructure are apt to change across the lifetime of the structure. 
 For infrastructure in particular this means that at some point in the near to long-term future we could exceed the design parameters with some non-zero probability.
 Climate change will continue to effect the ability of the military to meet its training objectives; impact the siting of future infrastructure; affect the costs of maintaining and operating present infrastructure, and the deployment of personnel and assets for future needs.
 The ability of these installations to meet training and mission objectives depends on the consideration and incorporation of climate change effects into existing decision making and planning practices. 
+
+\begin{tabular}{ |p{2.5cm}|p{2.5cm}|p{2.5cm}|p{2.5cm}|p{2.5cm}| }
+\hline
+\multicolumn{5}{|c|}{Impacts and Decisions} \\
+\hline
+Exposure & Impacts & Significance & Risk Management & Climate information inputs \\
+\hline
+Increased fire risk & Fewer burn days; ecosystem management; RCW & Costs; restrictions on ranges & Scheduling/budget; alter management; add training capacity at other installations & T, P, wind, soil moisture, fuel load \\
+\hline
+Ecosystem migration (change in flora/fauna ranges) & Protected species; invasive species; movement of pests; disease vectors & Costs; range suitability or availability & Alter management; redistribute training activities & Average and extremes of T, P, and other variables \\
+\hline
+Increase in days with extreme heat & Outdoor activity and training restrictions; energy system stress & Reduced training throughput; service interruptions & Alter training regimen; redistribute training activities & T, P, wind, solar insolation \\
+\hline
+Change in surface wind speed & Flight training, parachute drops; controlled burns & Training, ecosystem maintenance & Alter training regimen; redistribute training activities; change burn patterns & Daytime daily wind threshold exceedance \\
+\hline
+\end{tabular}
 
 Recently, a number of Executive Orders issued to force the consideration of climate change in planning and decision processes in government agencies. 
 The Department of Defense is required by Executive Order 13514 to assess its climate change risks and vulnerabilities, and to manage the effects of climate change on its operations and mission in both the near and longer term. 
@@ -76,35 +98,28 @@ The end result of the effort is an ordered list of assets that can be used for a
 
 \section{Vulnerability assessments: A three tiered approach}
 Given a need to conduct vulnerability assessment from a regulatory and risk management perspective it is still not clear how one might go about conducting one.
-We divide the complicated task into three distinct components: a screening, a vulnerability analysis, and adaptive planning process. 
-
-We know that exposure and vulnerabilities are not homogenous across a portfolio of assets, sites or installations. 
+We know that exposure and vulnerabilities are non-homogenous across a portfolio of assets, sites or installations. 
 Instead, particular sites and assets are more vulnerable than others.
 Given this reality, it is economically inefficient to allocate vulnerability analysis resources evenly across the entire portfolio.
-We determined that a tiered approach to the process could be one way to overcome this challenge. 
-Our tiered approach first uses institutional datasets (i.e., property management systems, GIS data, etc.) to create an indicator (i.e., a ranked ordering of all assets, sites, etc.) that determines the sites where further assessment is needed. 
+We believe that a tiered approach is capable of addressing the challenge of efficiently allocating an assessment budget.
+We divide the complicated task into three distinct steps, which are accomplished over an ever decreasing set of assets: a screening, a vulnerability analysis, and adaptive planning process. 
+Our approach first uses institutional datasets (i.e., property management systems, GIS data, etc.) and potentially, historical exposure data to create an indicator (i.e., a ranked ordering of all assets, sites, etc.) that determines the sites where further assessment is needed. 
 In additional analyses, more and more resources are used at the site to identify particular vulnerabilities, impacts, and adaptation alternatives. 
 
-At least three tiers exist in the level of detail and analysis considered by a vulnerability analysis.
-Tier 1 screens all assets in an effort to guide the identification of assets at risk such that more detailed analyses can be undertaken at these locations.
-It would be inefficient to assume that all installations or assets are equally at risk from climate change.
-Tier 2 is a site level vulnerability analysis that identifies potential consequences and adaptation options using a participatory process.
-While the Tier 1 assessment results in an ordered list of sites for further analysis the Tier 2 analysis results in a set of vulnerabilities for the set of installations considered.
+The first tier of a vulnerability assessment screens all assets or sites to identify the set of assets or sites at higher risk to climate change such that a more detailed assessment can be undertaken at these locations.
+The second tier is a site level vulnerability analysis only undertaken at those sites identified by the first tier, which delves more deeply into the particular exposure, vulnerabilities, impacts, and consequences of climate change to a particular site using a participatory process.
 The Tier 2 analysis identifies whether vulnerabilities need to be addressed through additional monitoring, altered management, or structural changes.
 It begins to assess the adaptation options necessary to improve resilience but these options are not yet evaluated at a level necessary for investment decisions.
-Tier 3 looks across the set of vulnerabilities identified in Tier 2 and identifies the cost effective solutions.
-
-The users of a Tier 1 assessment are likely to be headquarters or major commands.
-The results of a Tier 1 assessment are meant to guide budget processes within the vulnerability assessment framework.
-In that it provides input to setting priorities for vulnerability assessments at installations.
+Finally, a third tier assessment looks across the set of vulnerabilities identified in Tier 2 and identifies the cost effective solutions for the most pressing vulnerabilities using more detailed and costly analyses.
 
 An example of how one might go about doing a Tier 1 assessment is through the construction of a vulnerability indicator.
-In the case of the Department of Energy, which maintains the Facility Management System (FIMS); a real property database for the DOE.
-In the case of the DOE we looked at the average asset conditions by site for each program office in the DOE. 
+In the case of the Department of Energy (DOE), we used the Facility Management System (FIMS), a real property database, to rank order program offices, by average and variance of the condition index per site in their portfolio, while simultanesouly accounting for the importance of each asset at the site. looked at the average asset conditions by site for each program office in the DOE. 
 Using the average and variance we were able to construct an indicator that identified sites with poor average condition of assets or sites with a high variance in terms of the condition of assets.
 The importance of the participatory process is evident in the indicator construction, as the weighting used for each asset should be a function of the importance of the asset to the mission.
 Some organizations have worked to develop such metrics (i.e., mission importance index in the DOE, unique facility indicator (DOE), etc.).
 But how much we should weight these assets could be developed in concert with stakeholders with the results evaluated using sensitivity analysis of the weights.
+
+
 
 A Tier 2 analysis is developed in concert with installation personnel but produces information primarily for head quarters and major commands.
 The Tier 2 assessment can be useful in establishing long-term installation led processes to improve installation resilience.
@@ -122,12 +137,6 @@ Te process leans heavily on the knowledge of both headquarters and site personne
 A participatory process can synthesize site-specific expertise and technical inputs needed to build resilience. 
 Climate risk is a long-term process so building institutional capacity can provide some permanence to the process.
 
-Tier 3: adaptation design
-Is the modification of engineering and planning processes to incorporate climate information.
-The challenge being to increase mutual comprehension of climate information needs and limits uses of climate projections produced under 
-deep uncertainty.
-Begins with an assessment of vulnerability 
-[Insert our definition of vulnerability]
 
 Impacts are the intersection of exposure and vulnerability.
 Not all impacts have mission significance. 
@@ -139,21 +148,12 @@ The scenarios should provide a broad range of future climate conditions, acknowl
 
 The impacts of climate change on existing infrastructure are presently unknown but as a result of Executive Order [?] the military must begin the process of identifying climate vulnerabilities. 
 
-\begin{tabular}{ |p{2.5cm}|p{2.5cm}|p{2.5cm}|p{2.5cm}|p{2.5cm}| }
-\hline
-\multicolumn{5}{|c|}{Impacts and Decisions} \\
-\hline
-Exposure & Impacts & Significance & Risk Management & Climate information inputs \\
-\hline
-Increased fire risk & Fewer burn days; ecosystem management; RCW & Costs; restrictions on ranges & Scheduling/budget; alter management; add training capacity at other installations & T, P, wind, soil moisture, fuel load \\
-\hline
-Ecosystem migration (change in flora/fauna ranges) & Protected species; invasive species; movement of pests; disease vectors & Costs; range suitability or availability & Alter management; redistribute training activities & Average and extremes of T, P, and other variables \\
-\hline
-Increase in days with extreme heat & Outdoor activity and training restrictions; energy system stress & Reduced training throughput; service interruptions & Alter training regimen; redistribute training activities & T, P, wind, solar insolation \\
-\hline
-Change in surface wind speed & Flight training, parachute drops; controlled burns & Training, ecosystem maintenance & Alter training regimen; redistribute training activities; change burn patterns & Daytime daily wind threshold exceedance \\
-\hline
-\end{tabular}
+The users of a Tier 1 assessment are likely to be headquarters or major commands.
+The results of a Tier 1 assessment are meant to guide budget processes within the vulnerability assessment framework.
+In that it provides input to setting priorities for vulnerability assessments at installations.
+
+
+
 
 As a result, we see vulnerability analyses as part of a three tiered process. 
 
