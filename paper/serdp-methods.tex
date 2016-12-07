@@ -7,7 +7,7 @@
 \usepackage[style = authoryear, sorting = nyt, backend = biber]{biblatex}
 \bibliography{library.bib}
 
-\title{SERDP Methods}
+\title{Vulnerability analyses: The details}
 \author{Andrew Blohm}
 \date{\today}
 
@@ -103,17 +103,55 @@ Climate hazards exacerbate preexisting stressors especially for those most vulne
 Research suggests a relationship between violent conflict and vulnerability to climate change \parencite{field2014summary}.
 Finally, recent extreme climate events suggest that existing human and natural systems are highly vulnerable to current climate vulnerability (let alone future vulnerability) \parencite{field2014summary}.
 
+It is an open question on how these changes will effect the ability of the DoD to meet its mission.
+Several ideas have been put forward on both the definition of vulnerability and how to conduct vulnerability analyses.
+[Richard: Insert a paragraph here giving a cursory discussion of the literature (maybe a look at the definitions and methods proposed)]
+One criticism of much of this literature is that the present definition of vulnerability leads to delays in implementation of a vulnerability analyses because of the emphasis on ascertaining good exposure data.
+We put forward a conception this system that places equal weight on determining exposure, both historical and future, and sensitivity so that users are not hampered by issues with exposure projections.
+Instead, if exposure projections are not at the necessary resolution or are presently unclear then users can focus on historical relationships between exposure and sensitivity.
+
+A second criticism is that many of the methods proposed for conducting vulnerability analyses don't aggregate well to a set of best practices.
+By this we mean, all too often an individual vulnerability analysis becomes a one off exercise as the lessons learned, methods developed, steps undertaken, etc. don't necessarily help in conducting the next vulnerability analysis undertaken (i.e., no economies of scale). 
+Which, if true, would dramatically increase the cost of determining vulnerability to climate change across a portfolio.
+Our method is primarily focused on reducing the set of variables to investigate from both the sensitivity and exposure perspective.
+Across the case studies conducted to date, we find that while sites are often exposed to a large number of climate hazards they tend to be sensitive to a much smaller set and have actual mission impacts from an even smaller set.
+Thus, the exposure information needed from climate models is already much reduced, as well as the number of systems to model climate sensitivities is reduced as well.
+
+This abstraction of a complex climate and natural and human system to a small set of climate variables and systems of interest offers opportunities for some economies of scale. 
+Instead of sites appearing as unique and dissimilar we have illustrated potential commonalities, in their threats and sensitivities, which can be leveraged to produce economies of scale. 
+We believe that in a portfolio as large as the DoD, several sites will have sensitivities of similar systems to similar climate exposures, which as a result would allow for best practices for addressing these threats to emerge. 
+We suggest the development of method toolboxes to address these sensitivities, which can then be applied across a larger number of sites.
+For example, coastal installations are often vulnerable to sea level rise because it changes the return period of important water levels.
+We developed methods to determine historical, present day, and future return periods using local expectations of sea level rise before then projecting the threshold return levels identified through collaboration with local decision makers onto the site using ArcGIS\texttrademark\ software.
+
+In Figure \ref{fig:impacts} below we illustrate our conception of vulnerability, exposure, impacts and significance.
+Our definition of vulnerability is focused on the sensitivity and adaptive capacity of the site, installation, asset to climate change.
+Exposure represents the historical, current, and future climate conditions for the site.
+Impacts are the intersection of the sensitivity of the site and climate exposures that exist at that site.
+In other words, the site is both vulnerable to a particular climate/weather phenomenon and that climate/weather phenomenon is present currently or will be in the future.
+Finally, not all impacts matter.
+Mission significance is the set of impacts that affect the ability of the site to meet its objectives.
+[Richard: I think we need to make the text in the figure more concise.]
+
 \begin{figure}[H]\label{fig:impacts}
 \includegraphics[width=12cm]{impacts.png}
 \caption{Test}
 \end{figure}
 
+In Table \ref{table:impacts} below we illustrate how this conception of vulnerability might work at an actual site.
+In the first column we have exposures variables of concern for installations where we conducted vulnerability analyses.
+The second and third columns discuss the impact and significance of these variables.
+The fourth column discusses some preliminary adaptation alternatives.
+Though it should be noted that these risk management strategies are from a Tier 2 vulnerability analysis (the Tiered structure is discussed later) so much more study would need to be done before thinking about implementing them. 
+Finally, the last column demonstrates the input data needed from the regionally downscaled global climate models to create the exposure variable of interest.
+
 \begin{center}
+\label{table:impacts}
 \begin{tabular}{ |p{2.5cm}|p{2.5cm}|p{2.5cm}|p{2.5cm}|p{2.5cm}| }
 \hline
-\multicolumn{5}{|c|}{Impacts and Decisions} \\
+\multicolumn{5}{|c|}{\textbf{Impacts and Decisions}} \\
 \hline
-Exposure & Impacts & Significance & Risk Management & Climate information inputs \\
+\textbf{Exposure} & \textbf{Impacts} & \textbf{Significance} & \textbf{Risk Management} & \textbf{Climate information inputs} \\
 \hline
 Increased fire risk & Fewer burn days; ecosystem management; RCW & Costs; restrictions on ranges & Scheduling/budget; alter management; add training capacity at other installations & T, P, wind, soil moisture, fuel load \\
 \hline
@@ -126,10 +164,18 @@ Change in surface wind speed & Flight training, parachute drops; controlled burn
 \end{tabular}
 \end{center}
 
-\\
+For example, Fort Bragg located in Cumberland County, North Carolina is likely to experience increased fire risk as a result of changes in climate \parencite{}[Cite the Climate outlook].
+This will result in fewer days available to conduct controlled burns on the [X?] acres of training ranges.
+Controlled burns are important for two reasons at the site.
+First, controlled burns maintain the habitat of the Red Cockaded Woodpecker, an endangered species.
+Second, controlled burns reduce the likelihood of accidental fires during live fire exercises, which allows for the continued use of the training site for these types of exercises.
+Each year the installation conducts prescribed burning activities on approximately one third of the total training range mostly during the winter and spring.
+However, there are specific requirements on when these activities are allowed to occur (i.e., temperature, relative humidity, winds, etc.).
+As a result of climate change, the site could have less time available to meet its annual prescribed burning goals, which if allowed to continue would increase the risk of wildfire from live fire exercises and other natural causes.
+More study is needed to determine the intraannual timing of these climate changes and thus, their affect on prescribed burning.
 
-An important consideration is that human systems currently deployed around the world were mostly designed for a stationary environment that is well characterized by the information available at the time of their construction.
 Climate change is a non-stationary process, which means that the environmental conditions faced by infrastructure are apt to change across the lifetime of the structure. 
+An important consideration is that human systems currently deployed around the world were mostly designed for a stationary environment that is well characterized by the information available at the time of their construction.
 For infrastructure in particular this means that at some point in the near to long-term future we could exceed the design parameters with some non-zero probability.
 Climate change will continue to effect the ability of the military to meet its training objectives; impact the siting of future infrastructure; affect the costs of maintaining and operating present infrastructure, and the deployment of personnel and assets for future needs.
 The ability of these installations to meet training and mission objectives depends on the consideration and incorporation of climate change effects into existing decision making and planning practices. 
