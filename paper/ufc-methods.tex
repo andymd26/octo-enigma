@@ -2,6 +2,7 @@
 \usepackage{graphicx} 
 \usepackage{float} % necessary for placement of figures
 \usepackage{amsmath}
+\usepackage{enumerate}
 \usepackage{tabularx}
 \usepackage{gensymb}
 \usepackage[style = authoryear, sorting = nyt, backend = biber]{biblatex}
@@ -13,6 +14,48 @@
 
 \begin{document}
 \maketitle
+\section{Case study}
+In this section we discuss a potential illustration of the complexities of climate change on infrastructure design.
+
+Through discussions with Aaron Phillips we identified coastal infrastructure as a 
+Sea level rise poses significant challenges to the DoD given the large amount of assets and infrastructure deployed along coastlines around the world. 
+Another potential case study is master planning more generally.
+As a first step, new construction or significant rehab must determine if they exist in a 100 year flood plain.
+However, as far as I know these are historical 100-year flood plains and thus do not incorporate sea level rise projections across the lifetime of the project.
+
+One interesting note from the interviews with Aaron and Thad in February at the Pentagon is this notion that Engineers just want the data (just tell them where it is)(i.e., wind loads, temperature and humidity, rainfall amounts, snow loads, etc.).
+There assertion was that previously this was static but now its not so where does this information come from.
+I think it's important to point out that none of this has been static for quite sometime.
+We've been building assets and assuming that risk levels are lower than they actually might be.
+Also, there is concern with scenarios and which to use because obviously you need a scenario on future emissions to determine the degree of change.
+There are plenty of existing methods for incorporating this uncertainty (i.e., stochastic optimization to name just one). 
+Also, for some assets, given the length of life expected, the range of possible futures might be quite small for the variables that it is sensitive to.
+
+The questions become (according to Aaron) how to look at multiple scenarios and look at multiple alternatives; how to apply climate science information; who pays; are previous risk standards okay (i.e,. 1 in 100 year)?
+Aaron suggested that executive orders, DODD [not sure what this is]; and Federal Flood Risk Management Standards as the places we could do this.
+Finally, this all ties into the fact that much of the important work (i.e., where climate information is most needed) is actually being done by planners (who consult with engineers).
+
+\begin{enumerate}[1.]
+\item Select an appropriate UFC. An example might be UFC 415201 Piers and Wharfs, which includes non-specific language on climate change.
+\item Select a test location. 
+I would recommend reviewing Claudia Tebaldi's paper that includes local sea level rise projections and using something here. 
+Another approach is to use John Halls report to identify which sites have the necessary information. 
+Finally, look at the email from Aaron Phillips that included planned updates to the UFC. 
+The update attempts to include a fudge factor to build high enough to be climate resilient (but this should be tested).  
+\item Determine applicable regulations, allowable input data, etc.
+FEMA maps are used, AFCE24 for flood resistant design, Base elevation + freeboard (approach doesn't directly account for SLR or Design Flood Elevation); ASC24.14 - flood design standards of the American Society of Civil Engineers.
+Not sure if we did this but interview notes suggested we check with Adam Parriss on updated flood maps.
+If we take a NAVFAC approach they use Engineering Construction Bulletins (the US Army Corps has their own engineering regulation)
+\item Determine local data sources
+\item Determine historical, present day, and future return periods under different scenarios (determine FEMA heights, I've found weird discrepancies between their return levels and the ones I calculate)
+\item Calculate the return periods for various points in the future 
+\item Determine the optimal design of the system (same as UFC used) in each of the time periods
+\item If applicable determine the parameters in which the design would continue to function (not optimally but continue to function nonetheless)
+\item Determine the optimal investment under this situation accounting for the uncertainty
+\item Discuss potential alternatives (i.e., less expensive structures meant to be replaced more frequently?, floating docks, etc.).
+Sea level rise poses some unique challenges to docks and wharfs given that ship to pier geometry matters in determining if ships of various sizes can use the facilities.
+\end{enumerate}
+
 \section{Random notes}
 John Hall stated that Becky's interest in this is from exposure and that it would be a good idea to integrate her interests into our approach.
 
@@ -99,7 +142,6 @@ If outside, then nothing additional required.
 Doesn't take into account non-stationarity.
 Big issue is where the engineers should go to get the input data necessary for project design?
 This will necessarily tie into scenario selection (though maybe not as much as everyone anticipates given the differences in the scenario values for a parameter of interest in the near to mid term (might not be that much)). 
-
 
 Climate conditions can affect tests by having parameters that fall outside accepted ranges \parencite{}(David Goade, Aberdeen).
 View it as an encroachment factor. 
